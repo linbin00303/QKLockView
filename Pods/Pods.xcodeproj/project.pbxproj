@@ -7,76 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06E164839B89D22E0E53EC953C3C2337 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		0CB6F23BAEE6FA94B6C39510FFF1A077 /* QKLockView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EDDCC8EA5A8EBDECE67C2A5BF166CF4 /* QKLockView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2FAEF79C44ED0B1F3BD4595271313BBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		82E1383C01B5DC24C0938A1B1AAE2D54 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E8574E59CF5150CCD090D4C22A1B02B /* Image.xcassets */; };
-		90120FDA2B85F531E3EA4934A3C45DE3 /* QKLockView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A088B715B270D5067248883ADA433A /* QKLockView-dummy.m */; };
-		9CB83C9DF891304844E01733C66DF536 /* Pods-QKLockViewDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71778DB4822658169A384DB606F0E769 /* Pods-QKLockViewDemo-dummy.m */; };
-		AF9CD450EC4A8B4C46B3974D3A0CDD41 /* QKLockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A6E61880BA82F21D470B5E956C6C89 /* QKLockView.swift */; };
-		C0708AC5D45E46F25FCAF5C972777910 /* Pods-QKLockViewDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7DCA866099D774CB39B87A7F07C68E0 /* Pods-QKLockViewDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		061A34F5825ABB7403092B5B665B55C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		163FDD9F37B241EE0B368D2A58CC0A28 /* Pods-QKLockViewDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71778DB4822658169A384DB606F0E769 /* Pods-QKLockViewDemo-dummy.m */; };
+		3D1248D0C4C893437DDC7B9CFAE47038 /* Pods-QKLockViewDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7DCA866099D774CB39B87A7F07C68E0 /* Pods-QKLockViewDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		5374094F8518A6D1328E107B16E8393A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 33258F08A5A990F70104664CDFE9F6CD;
-			remoteInfo = QKLockView;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		1EDDCC8EA5A8EBDECE67C2A5BF166CF4 /* QKLockView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QKLockView-umbrella.h"; sourceTree = "<group>"; };
 		27A89BCA12226DE4AD0ED42CA1327FCC /* Pods-QKLockViewDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QKLockViewDemo-frameworks.sh"; sourceTree = "<group>"; };
-		38B9831957B2B355AE353C168FE2F619 /* QKLockView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QKLockView-prefix.pch"; sourceTree = "<group>"; };
-		41A6E61880BA82F21D470B5E956C6C89 /* QKLockView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QKLockView.swift; path = QKLockView/QKLockView.swift; sourceTree = "<group>"; };
-		482EAE9C7116E02D8C4AD8D04776EFD3 /* QKLockView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QKLockView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4987EE6069C25B6DDF05CB4489E0CBA9 /* Pods-QKLockViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QKLockViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		4E8574E59CF5150CCD090D4C22A1B02B /* Image.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Image.xcassets; path = QKLockView/Image.xcassets; sourceTree = "<group>"; };
 		5EC8C31F0CBBAB96ABF5852DD57F603B /* Pods-QKLockViewDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QKLockViewDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		6051812E8686882346F9D82AA54EA3F6 /* Pods-QKLockViewDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QKLockViewDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		666FAD18AE31FF9171FBCE1A19801E1E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		676399367ECC36DD13CD69A31E4A63D7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		68A088B715B270D5067248883ADA433A /* QKLockView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QKLockView-dummy.m"; sourceTree = "<group>"; };
 		71778DB4822658169A384DB606F0E769 /* Pods-QKLockViewDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QKLockViewDemo-dummy.m"; sourceTree = "<group>"; };
-		74D61814F62C3B2AF4ADA51E2948824B /* Pods_QKLockViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QKLockViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		74EFA181BCD73A905FCD80ACABFBB7D3 /* QKLockView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QKLockView.xcconfig; sourceTree = "<group>"; };
 		79BECD8BB5E7BAEF310E6AB42E09BFC2 /* Pods-QKLockViewDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QKLockViewDemo.modulemap"; sourceTree = "<group>"; };
-		8F78A91D611BDF6B0DD458D3D0A09BC7 /* QKLockView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = QKLockView.modulemap; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CFAFCF1871EC038940AEF68E6BD5C2E0 /* Pods_QKLockViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QKLockViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7DCA866099D774CB39B87A7F07C68E0 /* Pods-QKLockViewDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QKLockViewDemo-umbrella.h"; sourceTree = "<group>"; };
 		E81EDF3D8AB437D815E401DF4A844CF6 /* Pods-QKLockViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QKLockViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F9F05C4965B8E76F4E479EC02284CDE2 /* Pods-QKLockViewDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QKLockViewDemo-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0E6F8089A2073AB1F079ABD1D50299DA /* Frameworks */ = {
+		9CFAB1ED66B4C609B0557C29C68BF147 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FAEF79C44ED0B1F3BD4595271313BBC /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		65FB429598DD21CACAB6490EB9428D33 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				06E164839B89D22E0E53EC953C3C2337 /* Foundation.framework in Frameworks */,
+				061A34F5825ABB7403092B5B665B55C7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3CCD7F568CA61BC959C3BB48A71A4B4B /* Products */ = {
+		14D94AE7B102DAF26F67A8885717F41A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				74D61814F62C3B2AF4ADA51E2948824B /* Pods_QKLockViewDemo.framework */,
-				482EAE9C7116E02D8C4AD8D04776EFD3 /* QKLockView.framework */,
+				CFAFCF1871EC038940AEF68E6BD5C2E0 /* Pods_QKLockViewDemo.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,16 +54,6 @@
 				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		5575E21AF1BAC40F107F3F258D419495 /* QKLockView */ = {
-			isa = PBXGroup;
-			children = (
-				41A6E61880BA82F21D470B5E956C6C89 /* QKLockView.swift */,
-				9D9C2053798E1DFD3D14F0DD6DEF2C77 /* Resources */,
-				8931BD972FD4551AA7095F5E46611E39 /* Support Files */,
-			);
-			path = QKLockView;
 			sourceTree = "<group>";
 		};
 		5D59C12043A8FE870642E61FCAC48A64 /* Targets Support Files */ = {
@@ -112,32 +69,9 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				8BE0BEFFFEF4C1C03BC897B44D072796 /* Pods */,
-				3CCD7F568CA61BC959C3BB48A71A4B4B /* Products */,
+				14D94AE7B102DAF26F67A8885717F41A /* Products */,
 				5D59C12043A8FE870642E61FCAC48A64 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8931BD972FD4551AA7095F5E46611E39 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				676399367ECC36DD13CD69A31E4A63D7 /* Info.plist */,
-				8F78A91D611BDF6B0DD458D3D0A09BC7 /* QKLockView.modulemap */,
-				74EFA181BCD73A905FCD80ACABFBB7D3 /* QKLockView.xcconfig */,
-				68A088B715B270D5067248883ADA433A /* QKLockView-dummy.m */,
-				38B9831957B2B355AE353C168FE2F619 /* QKLockView-prefix.pch */,
-				1EDDCC8EA5A8EBDECE67C2A5BF166CF4 /* QKLockView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/QKLockView";
-			sourceTree = "<group>";
-		};
-		8BE0BEFFFEF4C1C03BC897B44D072796 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5575E21AF1BAC40F107F3F258D419495 /* QKLockView */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		94C981287B9D20A6CE0DC85732405784 /* Pods-QKLockViewDemo */ = {
@@ -158,14 +92,6 @@
 			path = "Target Support Files/Pods-QKLockViewDemo";
 			sourceTree = "<group>";
 		};
-		9D9C2053798E1DFD3D14F0DD6DEF2C77 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				4E8574E59CF5150CCD090D4C22A1B02B /* Image.xcassets */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,59 +103,32 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7E72A7C1E241AF6238D46F0C53DED9CB /* Headers */ = {
+		73EF464D703142B2357458E2F6D8A363 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CB6F23BAEE6FA94B6C39510FFF1A077 /* QKLockView-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F443784E44BDE03E7F6C6CDCBA3599E5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C0708AC5D45E46F25FCAF5C972777910 /* Pods-QKLockViewDemo-umbrella.h in Headers */,
+				3D1248D0C4C893437DDC7B9CFAE47038 /* Pods-QKLockViewDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		33258F08A5A990F70104664CDFE9F6CD /* QKLockView */ = {
+		393A96EA587DB6FDF0F5D9DACFEB3577 /* Pods-QKLockViewDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 003BF87C1A18B39D4E71AAE6D9ED0C57 /* Build configuration list for PBXNativeTarget "QKLockView" */;
+			buildConfigurationList = E468E673BCFB5F9FBEE5FAC99C3A433C /* Build configuration list for PBXNativeTarget "Pods-QKLockViewDemo" */;
 			buildPhases = (
-				A6FEBA12BE4D19017BE74E183F058682 /* Sources */,
-				0E6F8089A2073AB1F079ABD1D50299DA /* Frameworks */,
-				B6C6DE9C46072DEF8D05532FAFC24FE4 /* Resources */,
-				7E72A7C1E241AF6238D46F0C53DED9CB /* Headers */,
+				E591321D371151AE9D3DC19273DD7DEB /* Sources */,
+				9CFAB1ED66B4C609B0557C29C68BF147 /* Frameworks */,
+				73EF464D703142B2357458E2F6D8A363 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = QKLockView;
-			productName = QKLockView;
-			productReference = 482EAE9C7116E02D8C4AD8D04776EFD3 /* QKLockView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		9421C5AB3B834DF6B742CB4CD534CE37 /* Pods-QKLockViewDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BBC7A60470559CFC6C4254FB6B465DEC /* Build configuration list for PBXNativeTarget "Pods-QKLockViewDemo" */;
-			buildPhases = (
-				31D480A0785FA5455D1940CDC9F35E98 /* Sources */,
-				65FB429598DD21CACAB6490EB9428D33 /* Frameworks */,
-				F443784E44BDE03E7F6C6CDCBA3599E5 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7158036255E01F255F87044023BFC1A8 /* PBXTargetDependency */,
 			);
 			name = "Pods-QKLockViewDemo";
 			productName = "Pods-QKLockViewDemo";
-			productReference = 74D61814F62C3B2AF4ADA51E2948824B /* Pods_QKLockViewDemo.framework */;
+			productReference = CFAFCF1871EC038940AEF68E6BD5C2E0 /* Pods_QKLockViewDemo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -249,55 +148,25 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 3CCD7F568CA61BC959C3BB48A71A4B4B /* Products */;
+			productRefGroup = 14D94AE7B102DAF26F67A8885717F41A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9421C5AB3B834DF6B742CB4CD534CE37 /* Pods-QKLockViewDemo */,
-				33258F08A5A990F70104664CDFE9F6CD /* QKLockView */,
+				393A96EA587DB6FDF0F5D9DACFEB3577 /* Pods-QKLockViewDemo */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		B6C6DE9C46072DEF8D05532FAFC24FE4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				82E1383C01B5DC24C0938A1B1AAE2D54 /* Image.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		31D480A0785FA5455D1940CDC9F35E98 /* Sources */ = {
+		E591321D371151AE9D3DC19273DD7DEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CB83C9DF891304844E01733C66DF536 /* Pods-QKLockViewDemo-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A6FEBA12BE4D19017BE74E183F058682 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				90120FDA2B85F531E3EA4934A3C45DE3 /* QKLockView-dummy.m in Sources */,
-				AF9CD450EC4A8B4C46B3974D3A0CDD41 /* QKLockView.swift in Sources */,
+				163FDD9F37B241EE0B368D2A58CC0A28 /* Pods-QKLockViewDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		7158036255E01F255F87044023BFC1A8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = QKLockView;
-			target = 33258F08A5A990F70104664CDFE9F6CD /* QKLockView */;
-			targetProxy = 5374094F8518A6D1328E107B16E8393A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
@@ -344,7 +213,7 @@
 			};
 			name = Debug;
 		};
-		12F028A589B5CA6E60DD2388CAB58C6B /* Debug */ = {
+		3484339C37A2F71C6025C7A119314688 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4987EE6069C25B6DDF05CB4489E0CBA9 /* Pods-QKLockViewDemo.debug.xcconfig */;
 			buildSettings = {
@@ -371,41 +240,11 @@
 				PRODUCT_NAME = Pods_QKLockViewDemo;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		2583CF03D925913A189A1910DEF8FA7F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74EFA181BCD73A905FCD80ACABFBB7D3 /* QKLockView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/QKLockView/QKLockView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QKLockView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QKLockView/QKLockView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = QKLockView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -447,7 +286,7 @@
 			};
 			name = Release;
 		};
-		944A1A7C5EB9F7E33CDDD6B89C7CA1B3 /* Release */ = {
+		6379DC91AA2D10408F0D953166B2FEDE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E81EDF3D8AB437D815E401DF4A844CF6 /* Pods-QKLockViewDemo.release.xcconfig */;
 			buildSettings = {
@@ -480,48 +319,9 @@
 			};
 			name = Release;
 		};
-		F6ED4D2AC90AFBCAFF5C4E7CDB78C48C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74EFA181BCD73A905FCD80ACABFBB7D3 /* QKLockView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/QKLockView/QKLockView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QKLockView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QKLockView/QKLockView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = QKLockView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		003BF87C1A18B39D4E71AAE6D9ED0C57 /* Build configuration list for PBXNativeTarget "QKLockView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F6ED4D2AC90AFBCAFF5C4E7CDB78C48C /* Debug */,
-				2583CF03D925913A189A1910DEF8FA7F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -531,11 +331,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BBC7A60470559CFC6C4254FB6B465DEC /* Build configuration list for PBXNativeTarget "Pods-QKLockViewDemo" */ = {
+		E468E673BCFB5F9FBEE5FAC99C3A433C /* Build configuration list for PBXNativeTarget "Pods-QKLockViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				12F028A589B5CA6E60DD2388CAB58C6B /* Debug */,
-				944A1A7C5EB9F7E33CDDD6B89C7CA1B3 /* Release */,
+				3484339C37A2F71C6025C7A119314688 /* Debug */,
+				6379DC91AA2D10408F0D953166B2FEDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

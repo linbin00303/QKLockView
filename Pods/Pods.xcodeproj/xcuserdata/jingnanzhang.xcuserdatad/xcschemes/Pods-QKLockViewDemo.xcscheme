@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9421C5AB3B834DF6B742CB4CD534CE37"
+               BlueprintIdentifier = "393A96EA587DB6FDF0F5D9DACFEB3577"
                BuildableName = "Pods_QKLockViewDemo.framework"
                BlueprintName = "Pods-QKLockViewDemo"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9421C5AB3B834DF6B742CB4CD534CE37"
+            BlueprintIdentifier = "393A96EA587DB6FDF0F5D9DACFEB3577"
             BuildableName = "Pods_QKLockViewDemo.framework"
             BlueprintName = "Pods-QKLockViewDemo"
             ReferencedContainer = "container:Pods.xcodeproj">
