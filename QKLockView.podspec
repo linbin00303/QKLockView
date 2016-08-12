@@ -14,7 +14,8 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.source       = { :git => 'https://github.com/zxpLearnios/QKLockView.git', :tag => s.version.to_s }
 
-  s.source_files  = 'QKLockView/**/*.{h,swift}'
+  s.source_files  = ['QKLockView/*.swift', 'QKLockView/QKLockView.h']
+  s.public_header_files = ['QKLockView/QKLockView.h']
   s.resources     = 'QKLockView/*.xcassets'
 
  
