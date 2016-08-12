@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--设置手势密码-->
+        <scene sceneID="dTU-e8-Q3R">
+            <objects>
+                <viewController storyboardIdentifier="QKSetGesturePwdVC" title="设置手势密码" id="Lko-Ds-kaK" customClass="QKSetGesturePwdVC" customModule="QKLockViewDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DDy-7T-wUd"/>
+                        <viewControllerLayoutGuide type="bottom" id="rhx-mz-6J7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="W5W-JM-hMc">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gesture_bg" translatesAutoresizingMaskIntoConstraints="NO" id="wBM-du-7Qh">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请设置手势密码" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XJW-0a-tcg">
+                                <rect key="frame" x="248" y="113" width="105" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uef-xP-dV0">
+                                <rect key="frame" x="246" y="551" width="108" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Otc-t6-07B"/>
+                                    <constraint firstAttribute="width" constant="150" id="xcn-xK-CXN"/>
+                                </constraints>
+                                <state key="normal" title="重置手势密码">
+                                    <color key="titleColor" red="0.95686274510000002" green="0.32523048189999998" blue="0.21785081419999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Otc-t6-07B"/>
+                                        <exclude reference="xcn-xK-CXN"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="resetBtnAction:" destination="Lko-Ds-kaK" eventType="touchUpInside" id="pne-le-ugj"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CoS-yC-A9k">
+                                <rect key="frame" x="275" y="53" width="50" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="DUc-Rg-GYH"/>
+                                    <constraint firstAttribute="height" constant="50" id="Nc9-IV-CyF"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QLQ-6J-hUS">
+                                <rect key="frame" x="530" y="30" width="40" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="8ng-Tx-VVT"/>
+                                    <constraint firstAttribute="height" constant="30" id="SEm-Af-6Cw"/>
+                                </constraints>
+                                <state key="normal" title="关闭"/>
+                                <connections>
+                                    <action selector="closeAction:" destination="Lko-Ds-kaK" eventType="touchUpInside" id="fff-05-kwo"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="en1-LS-61f" customClass="QKLockView" customModule="QKLockViewDemo" customModuleProvider="target">
+                                <rect key="frame" x="45" y="60" width="510" height="561"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="en1-LS-61f" secondAttribute="height" multiplier="1:1.1" id="F55-11-oW7"/>
+                                    <constraint firstAttribute="width" secondItem="en1-LS-61f" secondAttribute="height" multiplier="1:1" id="LzV-73-lmE"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="LzV-73-lmE"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="en1-LS-61f" firstAttribute="width" secondItem="W5W-JM-hMc" secondAttribute="width" multiplier="0.85" id="0cw-xk-fQt"/>
+                            <constraint firstItem="CoS-yC-A9k" firstAttribute="centerX" secondItem="W5W-JM-hMc" secondAttribute="centerX" id="0eU-K0-aNi"/>
+                            <constraint firstItem="en1-LS-61f" firstAttribute="top" secondItem="XJW-0a-tcg" secondAttribute="bottom" constant="15" id="2Uv-k4-zuo"/>
+                            <constraint firstItem="rhx-mz-6J7" firstAttribute="top" secondItem="uef-xP-dV0" secondAttribute="bottom" constant="150" id="7Ec-wb-8au"/>
+                            <constraint firstAttribute="trailing" secondItem="wBM-du-7Qh" secondAttribute="trailing" id="Ayu-Ae-Cer"/>
+                            <constraint firstItem="en1-LS-61f" firstAttribute="width" secondItem="W5W-JM-hMc" secondAttribute="width" multiplier="320:375" id="CoW-gh-60W"/>
+                            <constraint firstItem="wBM-du-7Qh" firstAttribute="top" secondItem="W5W-JM-hMc" secondAttribute="top" id="Fgi-GN-nem"/>
+                            <constraint firstAttribute="trailing" secondItem="QLQ-6J-hUS" secondAttribute="trailing" constant="30" id="GGX-ah-6Zx"/>
+                            <constraint firstAttribute="centerX" secondItem="XJW-0a-tcg" secondAttribute="centerX" id="Gof-xm-bLs"/>
+                            <constraint firstItem="uef-xP-dV0" firstAttribute="top" secondItem="DDy-7T-wUd" secondAttribute="bottom" constant="83" id="Guf-oR-CsZ"/>
+                            <constraint firstItem="en1-LS-61f" firstAttribute="centerY" secondItem="W5W-JM-hMc" secondAttribute="centerY" constant="40" id="Kfd-fl-Cjf"/>
+                            <constraint firstItem="uef-xP-dV0" firstAttribute="centerX" secondItem="W5W-JM-hMc" secondAttribute="centerX" id="PXp-Vb-jJQ"/>
+                            <constraint firstItem="uef-xP-dV0" firstAttribute="top" secondItem="en1-LS-61f" secondAttribute="bottom" constant="17" id="Pai-ie-jQc"/>
+                            <constraint firstItem="rhx-mz-6J7" firstAttribute="top" secondItem="uef-xP-dV0" secondAttribute="bottom" constant="15" id="QJk-S2-amW"/>
+                            <constraint firstItem="wBM-du-7Qh" firstAttribute="leading" secondItem="W5W-JM-hMc" secondAttribute="leading" id="SKe-29-9Aq"/>
+                            <constraint firstItem="QLQ-6J-hUS" firstAttribute="top" secondItem="DDy-7T-wUd" secondAttribute="bottom" constant="10" id="Tfo-fN-nqs"/>
+                            <constraint firstItem="en1-LS-61f" firstAttribute="width" secondItem="W5W-JM-hMc" secondAttribute="width" multiplier="0.85" id="UNB-p0-nVt"/>
+                            <constraint firstItem="XJW-0a-tcg" firstAttribute="top" secondItem="DDy-7T-wUd" secondAttribute="bottom" constant="97" id="ZIQ-Rs-lnA"/>
+                            <constraint firstItem="uef-xP-dV0" firstAttribute="leading" secondItem="W5W-JM-hMc" secondAttribute="leadingMargin" constant="10" id="apw-zd-tUV"/>
+                            <constraint firstItem="en1-LS-61f" firstAttribute="top" secondItem="uef-xP-dV0" secondAttribute="bottom" constant="8" id="b8R-aC-Hkb"/>
+                            <constraint firstItem="CoS-yC-A9k" firstAttribute="top" secondItem="W5W-JM-hMc" secondAttribute="topMargin" constant="53" id="ixq-GI-KEv"/>
+                            <constraint firstItem="en1-LS-61f" firstAttribute="top" secondItem="XJW-0a-tcg" secondAttribute="bottom" constant="60" id="lyI-CH-ieT"/>
+                            <constraint firstAttribute="centerX" secondItem="en1-LS-61f" secondAttribute="centerX" id="ntd-Tz-tlA"/>
+                            <constraint firstItem="rhx-mz-6J7" firstAttribute="top" secondItem="wBM-du-7Qh" secondAttribute="bottom" id="qQ7-I8-ID3"/>
+                            <constraint firstItem="uef-xP-dV0" firstAttribute="leading" secondItem="W5W-JM-hMc" secondAttribute="leadingMargin" constant="225" id="qY9-82-3hz"/>
+                            <constraint firstItem="en1-LS-61f" firstAttribute="width" secondItem="W5W-JM-hMc" secondAttribute="width" multiplier="320:375" id="rVg-T3-L5D"/>
+                            <constraint firstAttribute="trailing" secondItem="en1-LS-61f" secondAttribute="trailing" constant="27" id="tiR-xw-boP"/>
+                            <constraint firstItem="en1-LS-61f" firstAttribute="leading" secondItem="W5W-JM-hMc" secondAttribute="leading" constant="27" id="vpo-w3-aRi"/>
+                            <constraint firstItem="XJW-0a-tcg" firstAttribute="top" secondItem="CoS-yC-A9k" secondAttribute="bottom" constant="10" id="vtN-s1-NSF"/>
+                            <constraint firstItem="en1-LS-61f" firstAttribute="height" secondItem="W5W-JM-hMc" secondAttribute="height" multiplier="320:375" id="xbc-VO-ymo"/>
+                            <constraint firstItem="en1-LS-61f" firstAttribute="width" secondItem="wBM-du-7Qh" secondAttribute="width" multiplier="0.85" id="zgs-S9-eOV"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="2Uv-k4-zuo"/>
+                                <exclude reference="CoW-gh-60W"/>
+                                <exclude reference="UNB-p0-nVt"/>
+                                <exclude reference="b8R-aC-Hkb"/>
+                                <exclude reference="lyI-CH-ieT"/>
+                                <exclude reference="rVg-T3-L5D"/>
+                                <exclude reference="tiR-xw-boP"/>
+                                <exclude reference="vpo-w3-aRi"/>
+                                <exclude reference="xbc-VO-ymo"/>
+                                <exclude reference="zgs-S9-eOV"/>
+                                <exclude reference="ZIQ-Rs-lnA"/>
+                                <exclude reference="7Ec-wb-8au"/>
+                                <exclude reference="Guf-oR-CsZ"/>
+                                <exclude reference="Pai-ie-jQc"/>
+                                <exclude reference="apw-zd-tUV"/>
+                                <exclude reference="qY9-82-3hz"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="closeBtn" destination="QLQ-6J-hUS" id="tJI-Gv-uFw"/>
+                        <outlet property="lockView" destination="en1-LS-61f" id="wKG-LQ-YlS"/>
+                        <outlet property="messageLab" destination="XJW-0a-tcg" id="MuG-db-Vd1"/>
+                        <outlet property="preView" destination="CoS-yC-A9k" id="kTH-TT-Hql"/>
+                        <outlet property="resetBtn" destination="uef-xP-dV0" id="BGt-b4-JBy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="42l-Ef-D5w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="486" y="-216"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="gesture_bg" width="320" height="568"/>
+    </resources>
+</document>

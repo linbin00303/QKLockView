@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		384263E999F9EA0F0775DCE0 /* Pods_QKLockViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0AA70BF9842315CBF8B97C2 /* Pods_QKLockViewDemo.framework */; };
+		547B528E1D5C1D9000444058 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547B528D1D5C1D9000444058 /* AppDelegate.swift */; };
+		547B52931D5C1D9000444058 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 547B52911D5C1D9000444058 /* Main.storyboard */; };
+		547B52951D5C1D9000444058 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 547B52941D5C1D9000444058 /* Assets.xcassets */; };
+		547B52981D5C1D9000444058 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 547B52961D5C1D9000444058 /* LaunchScreen.storyboard */; };
+		547B52A31D5C1D9000444058 /* QKLockViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547B52A21D5C1D9000444058 /* QKLockViewDemoTests.swift */; };
+		547B52AE1D5C1D9000444058 /* QKLockViewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547B52AD1D5C1D9000444058 /* QKLockViewDemoUITests.swift */; };
+		547B52BD1D5C1DDD00444058 /* QKLockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547B52BC1D5C1DDD00444058 /* QKLockView.swift */; };
+		547B52BF1D5C1E2F00444058 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 547B52BE1D5C1E2F00444058 /* Image.xcassets */; };
+		547B52CC1D5C1F6D00444058 /* QKSetGesturePwdVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 547B52C91D5C1F6D00444058 /* QKSetGesturePwdVC.storyboard */; };
+		547B52CD1D5C1F6D00444058 /* QKSetGesturePwdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547B52CA1D5C1F6D00444058 /* QKSetGesturePwdVC.swift */; };
+		547B52CE1D5C1F6D00444058 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547B52CB1D5C1F6D00444058 /* ViewController.swift */; };
+		547B52D11D5C1FE900444058 /* CALayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547B52D01D5C1FE900444058 /* CALayerExtension.swift */; };
+		547B52D31D5C544500444058 /* QKLockViewImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547B52D21D5C544500444058 /* QKLockViewImage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		547B529F1D5C1D9000444058 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 547B52821D5C1D9000444058 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 547B52891D5C1D9000444058;
+			remoteInfo = QKLockViewDemo;
+		};
+		547B52AA1D5C1D9000444058 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 547B52821D5C1D9000444058 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 547B52891D5C1D9000444058;
+			remoteInfo = QKLockViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		156EA3E447E71172C50E39B0 /* Pods-QKLockViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QKLockViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-QKLockViewDemo/Pods-QKLockViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		547B528A1D5C1D9000444058 /* QKLockViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QKLockViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		547B528D1D5C1D9000444058 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		547B52921D5C1D9000444058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		547B52941D5C1D9000444058 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		547B52971D5C1D9000444058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		547B52991D5C1D9000444058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		547B529E1D5C1D9000444058 /* QKLockViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QKLockViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		547B52A21D5C1D9000444058 /* QKLockViewDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QKLockViewDemoTests.swift; sourceTree = "<group>"; };
+		547B52A41D5C1D9000444058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		547B52A91D5C1D9000444058 /* QKLockViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QKLockViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		547B52AD1D5C1D9000444058 /* QKLockViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QKLockViewDemoUITests.swift; sourceTree = "<group>"; };
+		547B52AF1D5C1D9000444058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		547B52BC1D5C1DDD00444058 /* QKLockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QKLockView.swift; sourceTree = "<group>"; };
+		547B52BE1D5C1E2F00444058 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
+		547B52C91D5C1F6D00444058 /* QKSetGesturePwdVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = QKSetGesturePwdVC.storyboard; sourceTree = "<group>"; };
+		547B52CA1D5C1F6D00444058 /* QKSetGesturePwdVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QKSetGesturePwdVC.swift; sourceTree = "<group>"; };
+		547B52CB1D5C1F6D00444058 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		547B52D01D5C1FE900444058 /* CALayerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CALayerExtension.swift; sourceTree = "<group>"; };
+		547B52D21D5C544500444058 /* QKLockViewImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QKLockViewImage.swift; sourceTree = "<group>"; };
+		547B52D61D5D65CD00444058 /* QKLockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QKLockView.h; sourceTree = "<group>"; };
+		B0AA70BF9842315CBF8B97C2 /* Pods_QKLockViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QKLockViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBD0B2AFF45B0BA5346001EC /* Pods-QKLockViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QKLockViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QKLockViewDemo/Pods-QKLockViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		547B52871D5C1D9000444058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				384263E999F9EA0F0775DCE0 /* Pods_QKLockViewDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547B529B1D5C1D9000444058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547B52A61D5C1D9000444058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		547B52811D5C1D9000444058 = {
+			isa = PBXGroup;
+			children = (
+				547B52BB1D5C1DC600444058 /* QKLockView */,
+				547B528C1D5C1D9000444058 /* QKLockViewDemo */,
+				547B52A11D5C1D9000444058 /* QKLockViewDemoTests */,
+				547B52AC1D5C1D9000444058 /* QKLockViewDemoUITests */,
+				547B528B1D5C1D9000444058 /* Products */,
+				84800393C1095A743D51D063 /* Pods */,
+				98E5A4665778F0A40AF1BCDB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		547B528B1D5C1D9000444058 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				547B528A1D5C1D9000444058 /* QKLockViewDemo.app */,
+				547B529E1D5C1D9000444058 /* QKLockViewDemoTests.xctest */,
+				547B52A91D5C1D9000444058 /* QKLockViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		547B528C1D5C1D9000444058 /* QKLockViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				547B52CF1D5C1F9700444058 /* CALayer分类 */,
+				547B528D1D5C1D9000444058 /* AppDelegate.swift */,
+				547B52CB1D5C1F6D00444058 /* ViewController.swift */,
+				547B52911D5C1D9000444058 /* Main.storyboard */,
+				547B52CA1D5C1F6D00444058 /* QKSetGesturePwdVC.swift */,
+				547B52C91D5C1F6D00444058 /* QKSetGesturePwdVC.storyboard */,
+				547B52941D5C1D9000444058 /* Assets.xcassets */,
+				547B52961D5C1D9000444058 /* LaunchScreen.storyboard */,
+				547B52991D5C1D9000444058 /* Info.plist */,
+			);
+			path = QKLockViewDemo;
+			sourceTree = "<group>";
+		};
+		547B52A11D5C1D9000444058 /* QKLockViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				547B52A21D5C1D9000444058 /* QKLockViewDemoTests.swift */,
+				547B52A41D5C1D9000444058 /* Info.plist */,
+			);
+			path = QKLockViewDemoTests;
+			sourceTree = "<group>";
+		};
+		547B52AC1D5C1D9000444058 /* QKLockViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				547B52AD1D5C1D9000444058 /* QKLockViewDemoUITests.swift */,
+				547B52AF1D5C1D9000444058 /* Info.plist */,
+			);
+			path = QKLockViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		547B52BB1D5C1DC600444058 /* QKLockView */ = {
+			isa = PBXGroup;
+			children = (
+				547B52BC1D5C1DDD00444058 /* QKLockView.swift */,
+				547B52D61D5D65CD00444058 /* QKLockView.h */,
+				547B52D21D5C544500444058 /* QKLockViewImage.swift */,
+				547B52BE1D5C1E2F00444058 /* Image.xcassets */,
+			);
+			path = QKLockView;
+			sourceTree = "<group>";
+		};
+		547B52CF1D5C1F9700444058 /* CALayer分类 */ = {
+			isa = PBXGroup;
+			children = (
+				547B52D01D5C1FE900444058 /* CALayerExtension.swift */,
+			);
+			path = "CALayer分类";
+			sourceTree = "<group>";
+		};
+		84800393C1095A743D51D063 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBD0B2AFF45B0BA5346001EC /* Pods-QKLockViewDemo.debug.xcconfig */,
+				156EA3E447E71172C50E39B0 /* Pods-QKLockViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		98E5A4665778F0A40AF1BCDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0AA70BF9842315CBF8B97C2 /* Pods_QKLockViewDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		547B52891D5C1D9000444058 /* QKLockViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 547B52B21D5C1D9000444058 /* Build configuration list for PBXNativeTarget "QKLockViewDemo" */;
+			buildPhases = (
+				C43EE82B99AF33DA7ABD3B32 /* [CP] Check Pods Manifest.lock */,
+				547B52861D5C1D9000444058 /* Sources */,
+				547B52871D5C1D9000444058 /* Frameworks */,
+				547B52881D5C1D9000444058 /* Resources */,
+				55E5B04B89DD6C75C0C44F24 /* [CP] Embed Pods Frameworks */,
+				18A1DB3E255BA69D445866BF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QKLockViewDemo;
+			productName = QKLockViewDemo;
+			productReference = 547B528A1D5C1D9000444058 /* QKLockViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		547B529D1D5C1D9000444058 /* QKLockViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 547B52B51D5C1D9000444058 /* Build configuration list for PBXNativeTarget "QKLockViewDemoTests" */;
+			buildPhases = (
+				547B529A1D5C1D9000444058 /* Sources */,
+				547B529B1D5C1D9000444058 /* Frameworks */,
+				547B529C1D5C1D9000444058 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				547B52A01D5C1D9000444058 /* PBXTargetDependency */,
+			);
+			name = QKLockViewDemoTests;
+			productName = QKLockViewDemoTests;
+			productReference = 547B529E1D5C1D9000444058 /* QKLockViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		547B52A81D5C1D9000444058 /* QKLockViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 547B52B81D5C1D9000444058 /* Build configuration list for PBXNativeTarget "QKLockViewDemoUITests" */;
+			buildPhases = (
+				547B52A51D5C1D9000444058 /* Sources */,
+				547B52A61D5C1D9000444058 /* Frameworks */,
+				547B52A71D5C1D9000444058 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				547B52AB1D5C1D9000444058 /* PBXTargetDependency */,
+			);
+			name = QKLockViewDemoUITests;
+			productName = QKLockViewDemoUITests;
+			productReference = 547B52A91D5C1D9000444058 /* QKLockViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		547B52821D5C1D9000444058 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jingnan Zhang";
+				TargetAttributes = {
+					547B52891D5C1D9000444058 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					547B529D1D5C1D9000444058 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 547B52891D5C1D9000444058;
+					};
+					547B52A81D5C1D9000444058 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 547B52891D5C1D9000444058;
+					};
+				};
+			};
+			buildConfigurationList = 547B52851D5C1D9000444058 /* Build configuration list for PBXProject "QKLockViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 547B52811D5C1D9000444058;
+			productRefGroup = 547B528B1D5C1D9000444058 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				547B52891D5C1D9000444058 /* QKLockViewDemo */,
+				547B529D1D5C1D9000444058 /* QKLockViewDemoTests */,
+				547B52A81D5C1D9000444058 /* QKLockViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		547B52881D5C1D9000444058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547B52981D5C1D9000444058 /* LaunchScreen.storyboard in Resources */,
+				547B52CC1D5C1F6D00444058 /* QKSetGesturePwdVC.storyboard in Resources */,
+				547B52BF1D5C1E2F00444058 /* Image.xcassets in Resources */,
+				547B52951D5C1D9000444058 /* Assets.xcassets in Resources */,
+				547B52931D5C1D9000444058 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547B529C1D5C1D9000444058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547B52A71D5C1D9000444058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18A1DB3E255BA69D445866BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QKLockViewDemo/Pods-QKLockViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55E5B04B89DD6C75C0C44F24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QKLockViewDemo/Pods-QKLockViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C43EE82B99AF33DA7ABD3B32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		547B52861D5C1D9000444058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547B52D11D5C1FE900444058 /* CALayerExtension.swift in Sources */,
+				547B52D31D5C544500444058 /* QKLockViewImage.swift in Sources */,
+				547B52CD1D5C1F6D00444058 /* QKSetGesturePwdVC.swift in Sources */,
+				547B52BD1D5C1DDD00444058 /* QKLockView.swift in Sources */,
+				547B52CE1D5C1F6D00444058 /* ViewController.swift in Sources */,
+				547B528E1D5C1D9000444058 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547B529A1D5C1D9000444058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547B52A31D5C1D9000444058 /* QKLockViewDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547B52A51D5C1D9000444058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547B52AE1D5C1D9000444058 /* QKLockViewDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		547B52A01D5C1D9000444058 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 547B52891D5C1D9000444058 /* QKLockViewDemo */;
+			targetProxy = 547B529F1D5C1D9000444058 /* PBXContainerItemProxy */;
+		};
+		547B52AB1D5C1D9000444058 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 547B52891D5C1D9000444058 /* QKLockViewDemo */;
+			targetProxy = 547B52AA1D5C1D9000444058 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		547B52911D5C1D9000444058 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				547B52921D5C1D9000444058 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		547B52961D5C1D9000444058 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				547B52971D5C1D9000444058 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		547B52B01D5C1D9000444058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		547B52B11D5C1D9000444058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		547B52B31D5C1D9000444058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBD0B2AFF45B0BA5346001EC /* Pods-QKLockViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QKLockViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quarkfinai.QKLockViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		547B52B41D5C1D9000444058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 156EA3E447E71172C50E39B0 /* Pods-QKLockViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QKLockViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quarkfinai.QKLockViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		547B52B61D5C1D9000444058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QKLockViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quarkfinai.QKLockViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QKLockViewDemo.app/QKLockViewDemo";
+			};
+			name = Debug;
+		};
+		547B52B71D5C1D9000444058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QKLockViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quarkfinai.QKLockViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QKLockViewDemo.app/QKLockViewDemo";
+			};
+			name = Release;
+		};
+		547B52B91D5C1D9000444058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QKLockViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quarkfinai.QKLockViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QKLockViewDemo;
+			};
+			name = Debug;
+		};
+		547B52BA1D5C1D9000444058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QKLockViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quarkfinai.QKLockViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QKLockViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		547B52851D5C1D9000444058 /* Build configuration list for PBXProject "QKLockViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547B52B01D5C1D9000444058 /* Debug */,
+				547B52B11D5C1D9000444058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		547B52B21D5C1D9000444058 /* Build configuration list for PBXNativeTarget "QKLockViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547B52B31D5C1D9000444058 /* Debug */,
+				547B52B41D5C1D9000444058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		547B52B51D5C1D9000444058 /* Build configuration list for PBXNativeTarget "QKLockViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547B52B61D5C1D9000444058 /* Debug */,
+				547B52B71D5C1D9000444058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		547B52B81D5C1D9000444058 /* Build configuration list for PBXNativeTarget "QKLockViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547B52B91D5C1D9000444058 /* Debug */,
+				547B52BA1D5C1D9000444058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 547B52821D5C1D9000444058 /* Project object */;
+}

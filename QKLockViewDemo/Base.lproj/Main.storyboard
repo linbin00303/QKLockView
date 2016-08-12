@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="LVf-kc-bs1">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="TrM-rb-1fu">
+            <objects>
+                <viewController id="LVf-kc-bs1" customClass="ViewController" customModule="QKLockViewDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eIm-kC-eOk"/>
+                        <viewControllerLayoutGuide type="bottom" id="3Z1-jU-Pdu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="co7-9s-sUf">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r8h-6z-56Q">
+                                <rect key="frame" x="248" y="285" width="105" height="30"/>
+                                <state key="normal" title="去设置手势密码"/>
+                                <connections>
+                                    <action selector="gotoSetPwdAction:" destination="LVf-kc-bs1" eventType="touchUpInside" id="T3e-fS-b7C"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="r8h-6z-56Q" firstAttribute="centerY" secondItem="co7-9s-sUf" secondAttribute="centerY" id="U8k-11-AOl"/>
+                            <constraint firstItem="r8h-6z-56Q" firstAttribute="centerX" secondItem="co7-9s-sUf" secondAttribute="centerX" id="Zgq-uc-K02"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IUS-5E-ukS" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="302" y="379"/>
+        </scene>
+    </scenes>
+</document>
