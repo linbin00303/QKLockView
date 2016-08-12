@@ -14,7 +14,7 @@ public protocol QKLockViewDelegate:NSObjectProtocol {
 
 /** 此view最好是正方形,目前宽高比=1：1.1 */
 
-public class QKLockView: UIView {
+public final class QKLockView: UIView {
     
     public var delegate:QKLockViewDelegate?
     private var password:String?
@@ -31,16 +31,16 @@ public class QKLockView: UIView {
     
     
     
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         self.doInit()
     }
-    override public func awakeFromNib() {
+    public override  func awakeFromNib() {
         super.awakeFromNib()
         self.doInit()
     }
     
-    required public init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     
     }
@@ -66,17 +66,17 @@ public class QKLockView: UIView {
         
     }
     
-    override public func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        let tch:UITouch = (touches as NSSet).anyObject() as! UITouch
-        currentPoint  = tch.locationInView(self)
-        for btn in btnAry{
-            if CGRectContainsPoint(btn.frame, currentPoint) && btn.selected == false{ // 按钮包含这个点
-                btn.selected = true
-                selectBtnAry.append(btn)
-            }
-        }
-        
-    }
+//    override public func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+//        let tch:UITouch = (touches as NSSet).anyObject() as! UITouch
+//        currentPoint  = tch.locationInView(self)
+//        for btn in btnAry{
+//            if CGRectContainsPoint(btn.frame, currentPoint) && btn.selected == false{ // 按钮包含这个点
+//                btn.selected = true
+//                selectBtnAry.append(btn)
+//            }
+//        }
+//        
+//    }
     
     override public func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
         currentPoint = ((touches as NSSet).anyObject() as! UITouch).locationInView(self)
